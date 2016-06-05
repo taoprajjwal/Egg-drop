@@ -12,7 +12,7 @@ public class TriggerEnter : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D Object){
 		if (Object.gameObject.tag == "Ground") {
-			Application.LoadLevel(2);
+			UnityEngine.SceneManagement.SceneManager.LoadScene (2, UnityEngine.SceneManagement.LoadSceneMode.Single);	
 			Destroy (gameObject);
 		}
 

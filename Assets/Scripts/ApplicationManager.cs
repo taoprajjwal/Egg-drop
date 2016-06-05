@@ -16,8 +16,8 @@ public class ApplicationManager : MonoBehaviour {
 
 	public void play()
 	{
-		
-		Application.LoadLevel(1);
+		ScoreManager.Score = 0;
+		UnityEngine.SceneManagement.SceneManager.LoadScene (1, UnityEngine.SceneManagement.LoadSceneMode.Single);	
 
 		}
 

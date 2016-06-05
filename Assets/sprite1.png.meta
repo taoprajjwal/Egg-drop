@@ -31,7 +31,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -41,7 +41,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 2048
+  maxTextureSize: 1024
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -56,7 +56,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -74,6 +74,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 41}
+        - {x: -40.5, y: 35}
+        - {x: -40.5, y: -19}
+        - {x: -33.5, y: -41}
+        - {x: 19.5, y: -41}
+        - {x: 40.5, y: -26}
+        - {x: 40.5, y: 3}
+        - {x: 5.5, y: 41}
     - name: sprite1_1
       rect:
         serializedVersion: 2
@@ -84,6 +93,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 39.5}
+        - {x: -43.5, y: -10.5}
+        - {x: -28.5, y: -39.5}
+        - {x: 24.5, y: -39.5}
+        - {x: 43.5, y: -28.5}
+        - {x: 43.5, y: 13.5}
+        - {x: 9.5, y: 39.5}
     - name: sprite1_2
       rect:
         serializedVersion: 2
@@ -94,6 +111,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 27.5}
+        - {x: 5.5, y: 37.5}
+        - {x: -35.5, y: 37.5}
+        - {x: -40.5, y: 34.5}
+        - {x: -40.5, y: -13.5}
+        - {x: -35.5, y: -37.5}
+        - {x: 29.5, y: -37.5}
+        - {x: 40.5, y: -34.5}
+        - {x: 40.5, y: -8.5}
+        - {x: 34.5, y: -5.5}
     - name: sprite1_3
       rect:
         serializedVersion: 2
@@ -104,6 +132,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 35}
+        - {x: -48, y: 28}
+        - {x: -48, y: -17}
+        - {x: -38, y: -35}
+        - {x: 30, y: -35}
+        - {x: 48, y: -19}
+        - {x: 48, y: 1}
+        - {x: 39, y: 35}
     - name: sprite1_4
       rect:
         serializedVersion: 2
@@ -114,6 +151,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 23}
+        - {x: -52.5, y: 4}
+        - {x: -52.5, y: -23}
+        - {x: 43.5, y: -23}
+        - {x: 50.5, y: -10}
+        - {x: 52.5, y: 1}
+        - {x: 52.5, y: 23}
     - name: sprite1_5
       rect:
         serializedVersion: 2
@@ -124,6 +169,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 32.5}
+        - {x: -26, y: 32.5}
+        - {x: -40, y: 0.5}
+        - {x: -40, y: -32.5}
+        - {x: 15, y: -32.5}
+        - {x: 29, y: -29.5}
+        - {x: 40, y: -12.5}
+        - {x: 40, y: 23.5}
+        - {x: 39, y: 27.5}
     - name: sprite1_6
       rect:
         serializedVersion: 2
@@ -134,6 +189,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 34.5}
+        - {x: -36.5, y: 33.5}
+        - {x: -36.5, y: -34.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 36.5, y: -31.5}
+        - {x: 36.5, y: 34.5}
     - name: sprite1_7
       rect:
         serializedVersion: 2
@@ -144,6 +206,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 29}
+        - {x: 29, y: 32}
+        - {x: -26, y: 32}
+        - {x: -36, y: 29}
+        - {x: -36, y: -15}
+        - {x: -25, y: -32}
+        - {x: 14, y: -32}
+        - {x: 18, y: -31}
+        - {x: 26, y: -18}
+        - {x: 36, y: 2}
     - name: sprite1_8
       rect:
         serializedVersion: 2
@@ -154,6 +227,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 29.5}
+        - {x: -33.5, y: 12.5}
+        - {x: -36.5, y: 5.5}
+        - {x: -36.5, y: -21.5}
+        - {x: -29.5, y: -29.5}
+        - {x: 20.5, y: -29.5}
+        - {x: 36.5, y: -0.5}
+        - {x: 36.5, y: 23.5}
+        - {x: 18.5, y: 29.5}
     - name: sprite1_9
       rect:
         serializedVersion: 2
@@ -164,6 +247,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 29.5}
+        - {x: -37, y: 23.5}
+        - {x: -37, y: -17.5}
+        - {x: -27, y: -29.5}
+        - {x: 26, y: -29.5}
+        - {x: 37, y: -12.5}
+        - {x: 37, y: 26.5}
+        - {x: 27, y: 29.5}
     - name: sprite1_10
       rect:
         serializedVersion: 2
@@ -174,6 +266,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 28.5}
+        - {x: -35, y: 17.5}
+        - {x: -36, y: 12.5}
+        - {x: -36, y: -25.5}
+        - {x: -33, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 30, y: -26.5}
+        - {x: 36, y: -12.5}
+        - {x: 36, y: 21.5}
+        - {x: 13, y: 28.5}
     - name: sprite1_11
       rect:
         serializedVersion: 2
@@ -184,6 +287,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 28}
+        - {x: -40.5, y: 19}
+        - {x: -40.5, y: -28}
+        - {x: 35.5, y: -28}
+        - {x: 40.5, y: -24}
+        - {x: 40.5, y: 21}
+        - {x: 32.5, y: 28}
     - name: sprite1_12
       rect:
         serializedVersion: 2
@@ -194,6 +305,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 23}
+        - {x: -48.5, y: 8}
+        - {x: -48.5, y: -10}
+        - {x: -25.5, y: -23}
+        - {x: 18.5, y: -23}
+        - {x: 48.5, y: -9}
+        - {x: 48.5, y: 20}
+        - {x: 28.5, y: 23}
     - name: sprite1_13
       rect:
         serializedVersion: 2
@@ -204,6 +324,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: -19}
+        - {x: -41, y: -32}
+        - {x: 32, y: -32}
+        - {x: 50, y: -26}
+        - {x: 50, y: 32}
+        - {x: -48, y: 32}
+        - {x: -50, y: 30}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
