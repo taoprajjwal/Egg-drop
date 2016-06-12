@@ -3,7 +3,9 @@ using System.Collections;
 
 public class ApplicationManager : MonoBehaviour {
 	
-	private int t;	
+	public static bool hover=false;
+
+	// Begin States
 	public void Quit () 
 	{
 		#if UNITY_EDITOR
@@ -16,14 +18,31 @@ public class ApplicationManager : MonoBehaviour {
 
 	public void play()
 	{
-		ScoreManager.Score = 0;
-		UnityEngine.SceneManagement.SceneManager.LoadScene (1, UnityEngine.SceneManagement.LoadSceneMode.Single);	
+		ScoreManager.Score = 0;	
+			UnityEngine.SceneManagement.SceneManager.LoadScene (1, UnityEngine.SceneManagement.LoadSceneMode.Single);	
 
 		}
 
+	public void pause(){
+		UnityEngine.SceneManagement.SceneManager.LoadScene (3, UnityEngine.SceneManagement.LoadSceneMode.Single);
+	}
+
+	public void playonresume(){
+		UnityEngine.SceneManagement.SceneManager.LoadScene (1, UnityEngine.SceneManagement.LoadSceneMode.Single);	
+
+	}
 
 
-	
+	 
+	public void OnHover(){
+
+		hover = true;
+		}
+
+	public void OuterHover(){
+
+		hover = false;
+	}
 }
 
 

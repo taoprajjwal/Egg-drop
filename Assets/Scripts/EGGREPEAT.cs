@@ -18,13 +18,19 @@ public class EGGREPEAT : MonoBehaviour {
 
 	
 		egpos = new Vector3 (ppos.x, ppos.y - 1, ppos.z); 
-
 		if (Input.GetMouseButtonDown (0)) {
-			clone = Instantiate (eggspawned, egpos, Quaternion.identity) as GameObject;
-			clone.AddComponent<TriggerEnter> ();
+
+			if (ApplicationManager.hover == true) {
+							
+			}
+
+			else{
+				clone = Instantiate (eggspawned, egpos, Quaternion.identity) as GameObject;
+				clone.AddComponent<TriggerEnter> ();
 
 
-		}
+			}
 	
+		}
 	}
 }

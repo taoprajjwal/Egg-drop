@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Movement : MonoBehaviour {
-	public float speed;
+	public static float speed{ get; set;}
 	void Start () {
 
 	}
@@ -10,5 +10,6 @@ public class Movement : MonoBehaviour {
 	void Update () {
 		transform.position += Vector3.right * Time.deltaTime*speed;
 		speed = 4+(ScoreManager.Score/5f);
+
 	}
 }
