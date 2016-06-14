@@ -11,7 +11,7 @@ public class Ending_Score : MonoBehaviour {
 		if (score < 10) {
 			Units.sprite = SpritesofNumbers [score];
 		}
-		else if (score >= 9) {
+		else if (score >= 10) {
 			Tens.sprite = SpritesofNumbers [score / 10];
 			Units.sprite = SpritesofNumbers [score % 10];
 		

@@ -28,6 +28,7 @@ public class ApplicationManager : MonoBehaviour {
 	}
 
 	public void playonresume(){
+		hover = false;
 		UnityEngine.SceneManagement.SceneManager.LoadScene (1, UnityEngine.SceneManagement.LoadSceneMode.Single);	
 
 	}
